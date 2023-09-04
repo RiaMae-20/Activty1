@@ -7,9 +7,9 @@ export default function App() {
       <View style={styles.profile}>
         <Image
           style={styles.image}
-          source={require("./images/pic.png")} // static image
+          source={require("./images/myprof.png")} // static image
         />
-        <Text style={styles.name}>Angelo Maldora</Text>
+        <Text style={styles.name}>Ria Mae Angcahan</Text>
         <Text style={styles.course}>Information Technology 3</Text>
       </View>
       <Text style={styles.subject}>My Subjects</Text>
@@ -58,23 +58,6 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "white",
-    alignItems: "flex-start",
-    justifyContent: "flex-start",
-    padding: 20,
-  },
-  profile: {
-    height: 210,
-    width: 320,
-    backgroundColor: "#23459c",
-    marginTop: 40,
-    borderTopRightRadius: 40,
-    borderBottomRightRadius: 40,
-    padding: 10,
-    flexDirection: "column",
-  },
   maintext: {
     color: "white",
     marginTop: 20,
@@ -117,16 +100,30 @@ const styles = StyleSheet.create({
     padding: 10,
   },
   more: {
-   
     width: 320,
     alignItems:'flex-end'
   },
   mores: {
-    color: "#23459c",
-    
+    color: "#23459c", 
   },
   row1: {
     flexDirection: "column",
     alignItems: "flex-start",
+  }, container: {
+    flex: 1,
+    backgroundColor: "white",
+    alignItems: "flex-start",
+    justifyContent: "flex-start",
+    padding: 20,
+  },
+  profile: {
+    height: 210,
+    width: 320,
+    backgroundColor: "#23459c",
+    marginTop: 40,
+    borderTopRightRadius: 40,
+    borderBottomRightRadius: 40,
+    padding: 10,
+    flexDirection: "column",
   },
 });
